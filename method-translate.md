@@ -28,4 +28,4 @@ translate method requires three values to move the object in the x, y, and z-axi
 Attach this script to the object you want to translate and set the speed value in the inspector window. The object will move in the direction of the object at the speed you set.
 
 &larr; [Back to Codding](./Coding_unity.md)\
-&larr; [Back to Begin](./README.md)
+&larr; [Back to Begin](./readme.md)

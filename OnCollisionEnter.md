@@ -22,7 +22,6 @@ public class Collision : MonoBehaviour
 ```
 so when the GameObject collides with another GameObject, the `OnCollisionEnter` method will be called and the name of the GameObject that the GameObject collided with will be printed to the console.
 
-then you can attach this script to the GameObject you want to detect collisions with and you can see the collision messages in the console window.
-
 &larr; [Back to Codding](./Coding_unity.md)\
-&larr; [Back to Begin](./README.md)
+&larr; [Back to Colliders and Rigid Bodies](./colliders_rigdbody.md)\
+&larr; [Back to Begin](./readme.md)

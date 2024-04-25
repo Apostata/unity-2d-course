@@ -43,13 +43,13 @@ To add a Rigidbody to a GameObject, select the GameObject in the Hierarchy windo
 
 ## Passing through objects
 
-If you want to pass through objects, you can set the collider to `isTrigger` in the inspector window. This will allow the GameObject to pass through other GameObjects without colliding with them. When a GameObject with a trigger collider enters the trigger volume of another GameObject, the `OnTriggerEnter` method is called on the other GameObject.
+If you want to pass through objects, you can set the collider to `isTrigger` in the inspector window. This will allow the GameObject to pass through other GameObjects without colliding with them. When a GameObject with a trigger collider enters the trigger volume of another GameObject, the [`OnTriggerEnter`](./OnTriggerEnter.md) method is called on the other GameObject.
 
 ## Create a script to detect collisions
 
-To detect collisions between GameObjects, you can create a script that uses the `OnCollisionEnter` or `OnTriggerEnter` methods. These methods are called when a GameObject collides with another GameObject or enters a trigger volume, respectively.
+To detect collisions between GameObjects, you can create a script that uses the [`OnCollisionEnter`](./OnCollisionEnter.md) or [`OnTriggerEnter`](./OnTriggerEnter.md) methods. These methods are called when a GameObject collides with another GameObject or enters a trigger volume, respectively.
 
-Here is an example of a script that uses the `OnCollisionEnter` method to detect collisions between two GameObjects:
+Here is an example of a script that uses the [`OnCollisionEnter`](./OnCollisionEnter.md) method to detect collisions between two GameObjects:
 
 ```csharp
 using System.Collections;
@@ -71,3 +71,6 @@ The same proccess can be done with `OnTriggerEnter2D` method.
 
 
  Attach this script to the GameObject that you want to detect collisions with, and it will log a message to the console whenever a collision occurs.
+
+ &larr; [Back to Begin](./readme.md)\
+ &larr; [Back to Codding](./Coding_unity.md)

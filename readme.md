@@ -87,6 +87,7 @@ more the number more "in front" of others object, the object will be.
 ## Content
 
 [Codding in Unity](./Coding_unity.md)\
+[Colliders and Ridig bodies](./colliders_rigdbody.md)\
 [Camera](./camera.md)
 
 ## Course Projects

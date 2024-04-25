@@ -104,7 +104,7 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `LateUpdate()`: This method is called after all the `Update()` methods have been called.
 - `FixedUpdate()`: This method is called at a fixed interval. This method is called every fixed frame rate frame.
 - [`OnCollisionEnter()`](./OnCollisionEnter.md): This method is called when the object collides with another object.
-- `OnTriggerEnter()`: This method is called when the object enters a trigger collider.
+- [`OnTriggerEnter()`](./OnTriggerEnter.md): This method is called when the object enters a trigger collider.
 - `OnMouseDown()`: This method is called when the object is clicked on with the mouse.
 - `OnMouseEnter()`: This method is called when the mouse enters the object's collider.
 - `OnMouseExit()`: This method is called when the mouse exits the object's collider.
@@ -130,6 +130,8 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `OnBecameVisible()`: This method is called when the object becomes visible.
 - `OnDrawGizmos()`: This method is called for drawing gizmos in the scene view.
 - `OnDrawGizmosSelected()`: This method is called for drawing gizmos in the scene view only if the object is selected. 
+
+**To se how collision and rigid bodies work, take a look [here](./colliders_rigdbody.md)**
 
 ## Transform Methods
 
@@ -218,4 +220,4 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `GetComponentInParent()`: This method is used to get the component of the object and its parent.
 - `GetComponents()`: This method is used to get all the components of the object.
 
-&larr; [Back to Begin](./README.md)
+&larr; [Back to Begin](./readme.md)

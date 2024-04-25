@@ -28,4 +28,4 @@ rotate method requires three values to rotate the object around the x, y, and z-
 Attach this script to the object you want to rotate and set the speed value in the inspector window. The object will rotate around the z-axis at the speed you set.
 
 &larr; [Back to Codding](./Coding_unity.md)\
-&larr; [Back to Begin](./README.md)
+&larr; [Back to Begin](./readme.md)
