@@ -4,7 +4,7 @@
 
 Assets are the files that you import into your Unity project to create your game. These files can include 3D models, textures, audio files, scripts, and more. You can import assets into your project by `dragging and dropping` them into the Unity Editor, or by using the `Assets` menu in the Editor, or by right-clicking in the `Project` window and selecting `Import New Asset`.
 
-![Importing Assets](./importing_assets.png)
+![Importing Assets](./assets/importing_assets.png)
 
 When you import an asset into your project, Unity will create a copy of the asset and store it in the `Assets` folder of your project. You can organize your assets into folders within the `Assets` folder to keep your project organized.
 
@@ -25,11 +25,13 @@ Lets assume that our unit is `1 unit = 1 meter`.
 Insert every assets in to the scene and resize them to fit properly in the scene. You can resize all instances of an asset by its resolution in the `Inspector` window.
 Firts, click on the asset in the `Project` window, then at the `Inspector` window, adjust the `pixels per unit` property to fit properly in the scene.
 
-![Resizing Assets by resolution](./resize_by_resolution.png)
+![Resizing Assets by resolution](./assets/resize_by_resolution.png)
 
 
 ## Adding a sprite to a GameObject
 
 To add a sprite to a GameObject, select the GameObject in the Hierarchy window, then in the Inspector window, click the at the `Sprite Renderer` component, then click on the `Sprite` field and select the sprite you want to add to the GameObject.
 
-![Adding a sprite to a GameObject](./adding_asset_to_object.png)
+![Adding a sprite to a GameObject](./assets/adding_asset_to_object.png)
+
+&larr; [Back to Begin](./readme.md)

@@ -1,6 +1,6 @@
 # Colliders and Ridig bodies
 
-## Colliders
+## Colliders and Dynamic sprite
 
 Colliders are the components that define the shape of a GameObject. They are used to detect collisions and trigger events. Colliders can be attached to any GameObject, but are most often used with GameObjects that are intended to interact with the physical world. For example, a GameObject that represents a car might have a collider that defines the shape of the car's body, wheels, and other parts.
 
@@ -28,7 +28,22 @@ Unity provides several types of colliders, each of which is suited to different 
 
 To add a collider to a GameObject, select the GameObject in the Hierarchy window, then click the `Add Component` button in the Inspector window. In the search bar, type the name of the collider you want to add (e.g., `BoxCollider 2D`), then click on the collider in the search results. The collider will be added to the GameObject, and you can adjust its properties in the Inspector window.
 
-![colliders](./colliders.png)
+![colliders](./assets/colliders.png)
+
+
+#### Adjusting the Collider's offset
+
+Sometimes you may need to adjust the position of the collider relative to the GameObject's position. You can do this by adjusting the `Offset` property of the collider in the Inspector window.
+<div style="float:left;width:50%">
+    <b>This is the default collider offset</b>
+    <img src="./assets/collider_offset.png" alt="Colliders_offset">
+</div>
+<div style="float:left;width:50%">
+    <b>This is the adjusted collider offset</b> 
+    <img src="./assets/adjusted_collider_offset.png" alt="Colliders_offset">
+</div>
+<div style="clear:both"></div>
+You can found the collider offset in the inspector window, at the bottom of the Shape controller
 
 ## Rigidbody
 
@@ -40,6 +55,10 @@ Rigidbodies can be attached to any GameObject, but are most often used with Game
 
 To add a Rigidbody to a GameObject, select the GameObject in the Hierarchy window, then click the `Add Component` button in the Inspector window. In the search bar, type `Rigidbody 2D`, then click on the Rigidbody in the search results. The Rigidbody component will be added to the GameObject, and you can adjust its properties in the Inspector window. The same process as adding a collider.
 
+
+## Dynamic sprites
+
+Dynamic sprites are sprites that already have `Collider` and `Rigidbodies` attached to them. This allows them to interact with the physical world without the need for additional components. Dynamic sprites are often used in games that require realistic physical interactions between GameObjects, such as platformers, puzzle games, and physics-based games.
 
 ## Passing through objects
 

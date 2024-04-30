@@ -34,7 +34,7 @@ public class PrintToConole : MonoBehaviour
 To add a script to an object, drag the script from the project window to the object in the hierarchy window or select the object in the hierarchy window and click on `add component` in the inspector window and search for the script.
 
 run the game and you will see the message in the console window.\
-<img src="./first_script.png" alt="Printing script" width="50%">
+<img src="./assets/first_script.png" alt="Printing script" width="50%">
 
 
 ### Script Initial methods
@@ -90,7 +90,7 @@ public class Driver : MonoBehaviour
 
 ```
 
-<img src="./serialize_variable.png" alt="Serialize Variable" width="100%">
+<img src="./assets/serialize_variable.png" alt="Serialize Variable" width="100%">
 
 - `steerSpeed` and `moveSpeed` are the variables that can be accessed in the inspector window.\
 you can use `public` instead of `[SerializeField]` but it is only recommended if you want to access the variable from another script.

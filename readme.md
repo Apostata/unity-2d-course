@@ -31,7 +31,7 @@ gitlab repo: https://gitlab.com/GameDevTV/unity2d-v3
 ### Interface overview
 
 The unity editor interface 
-![Unity Editor](./editor.png)
+![Unity Editor](./assets/editor.png)
 
 ### Basic commands
 
@@ -64,22 +64,20 @@ In screen space there are two buttons:
 
 so if you want to move the object in the direction of the object, select the local button. If you want to move the object in the direction of the world, select the global button.
 
-<img src="./global_direction.png" alt="Global direction" width="50%" style="
-    float: left;
-">
-<img src="./local_direction.png" alt="Local direction" width="50%">
+<img src="./assets/global_direction.png" alt="Global direction" width="50%" style="float:left;">
+<img src="./assets/local_direction.png" alt="Local direction" width="50%">
 
 
 #### Adding 2d Object(s) in scene
 
 Right click in the hierarchy window and select 2d object. You can add a sprite, tilemap, text, etc.
-![2d Object](./create_2d_object.png)
+![2d Object](./assets/create_2d_object.png)
 
 #### Order in layer
 
 You can change the order in layer of the object by changing the value in the sprite renderer component. Select the object in the inspector window and change the value in the sprite renderer component.
 
-<img src="./layer_order.png" alt="Image" width="50%">
+<img src="./assets/layer_order.png" alt="Image" width="50%">
 
 more the number more "in front" of others object, the object will be.
 
@@ -87,13 +85,16 @@ more the number more "in front" of others object, the object will be.
 ## Content
 
 [Codding in Unity](./Coding_unity.md)\
+[Input System](./Input_system.md)\
 [Colliders and Ridig bodies](./colliders_rigdbody.md)\
-[Camera](./camera.md)
+[Camera](./camera.md)\
+[Custom shapes and Sprites](./custom_shapes.md)
+
 
 ## Course Projects
 
-[Delivery Driver](https://github.com/Apostata/Unity-delivery-driver)
-
+[Delivery Driver Game](https://github.com/Apostata/Unity-delivery-driver)\
+[Snow Boarder Game](https://github.com/Apostata/Unity-snow-boarder)
 
 ## Credits and copyrigth
 
