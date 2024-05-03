@@ -20,5 +20,5 @@ public class Trigger : MonoBehaviour
 ```
 
 &larr; [Back to Codding](./Coding_unity.md)\
-&larr; [Back to Colliders and Rigid Bodies](./colliders_rigdbody.md)\
+&larr; [Back to Colliders and Rigid Bodies](./physics.md)\
 &larr; [Back to Begin](./readme.md)

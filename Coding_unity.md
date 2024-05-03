@@ -131,7 +131,7 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `OnDrawGizmos()`: This method is called for drawing gizmos in the scene view.
 - `OnDrawGizmosSelected()`: This method is called for drawing gizmos in the scene view only if the object is selected. 
 
-**To se how collision and rigid bodies work, take a look [here](./colliders_rigdbody.md)**
+**To se how collision and rigid bodies work, take a look [here](./physics.md)**
 
 ## Transform Methods
 
@@ -219,5 +219,47 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `GetComponentInChildren()`: This method is used to get the component of the object and its children.
 - `GetComponentInParent()`: This method is used to get the component of the object and its parent.
 - `GetComponents()`: This method is used to get all the components of the object.
+- [`IsTouching()`](./Object.IsTouching.md): This method is used to check if the object is touching another object.
+
+## Rigidbody Methods
+
+Unity provides many built-in methods that can be used to interact with the rigidbody component of the object. Some of the commonly used methods are:
+
+- `AddForce()`: This method is used to add a force to the object.
+- `AddRelativeForce()`: This method is used to add a relative force to the object.
+- [`AddTorque()`](Ridigbody.AddTorque.md): This method is used to add a torque to the object.
+- `AddRelativeTorque()`: This method is used to add a relative torque to the object.
+- `MovePosition()`: This method is used to move the object to the specified position.
+- `MoveRotation()`: This method is used to move the object to the specified rotation.
+- `Sleep()`: This method is used to put the object to sleep.
+- `WakeUp()`: This method is used to wake up the object.
+- `ResetCenterOfMass()`: This method is used to reset the center of mass of the object.
+- `ResetInertiaTensor()`: This method is used to reset the inertia tensor of the object. 
+
+## Scene Management
+
+Unity provides many built-in methods that can be used to interact with the scenes in the game. Some of the commonly used methods are:
+
+- [`SceneManager.LoadScene()`](./SceneManager.loadScene.md): This method is used to load a scene by name or index.
+- `SceneManager.LoadSceneAsync()`: This method is used to load a scene asynchronously by name or index.
+- `SceneManager.UnloadScene()`: This method is used to unload a scene by name or index.
+- `SceneManager.GetActiveScene()`: This method is used to get the active scene.
+- `SceneManager.GetSceneByName()`: This method is used to get a scene by name.
+- `SceneManager.GetSceneByBuildIndex()`: This method is used to get a scene by build index.
+- `SceneManager.GetSceneAt()`: This method is used to get a scene at the specified index.
+- `SceneManager.GetSceneByPath()`: This method is used to get a scene by path.
+- `SceneManager.MergeScenes()`: This method is used to merge scenes.
+- `SceneManager.MoveGameObjectToScene()`: This method is used to move a game object to a scene.
+- `SceneManager.SetActiveScene()`: This method is used to set the active scene.
+- `SceneManager.LoadSceneMode()`: This method is used to set the load scene mode.
+- `SceneManager.LoadSceneParameters()`: This method is used to set the load scene parameters.
+- `SceneManager.LoadSceneSingle()`: This method is used to load a scene single.
+- `SceneManager.LoadSceneAdditive()`: This method is used to load a scene additive.
+- `SceneManager.LoadSceneSingleAsync()`: This method is used to load a scene single asynchronously.
+- `SceneManager.LoadSceneAdditiveAsync()`: This method is used to load a scene additive asynchronously.
+- `SceneManager.LoadSceneSingleParameters()`: This method is used to load a scene single parameters.
+- `SceneManager.LoadSceneAdditiveParameters()`: This method is used to load a scene additive parameters.
+- `SceneManager.LoadSceneSingleAsyncParameters()`: This method is used to load a scene single asynchronously parameters.
+- `SceneManager.LoadSceneAdditiveAsyncParameters()`: This method is used to load a scene additive asynchronously parameters.
 
 &larr; [Back to Begin](./readme.md)

@@ -86,9 +86,10 @@ more the number more "in front" of others object, the object will be.
 
 [Codding in Unity](./Coding_unity.md)\
 [Input System](./Input_system.md)\
-[Colliders and Ridig bodies](./colliders_rigdbody.md)\
+[Physics](./physics.md)\
 [Camera](./camera.md)\
-[Custom shapes and Sprites](./custom_shapes.md)
+[Custom shapes and Sprites](./custom_shapes.md)\
+[Scenes](./scenes.md)
 
 
 ## Course Projects
