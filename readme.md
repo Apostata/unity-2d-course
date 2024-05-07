@@ -89,8 +89,9 @@ more the number more "in front" of others object, the object will be.
 [Physics](./physics.md)\
 [Camera](./camera.md)\
 [Custom shapes and Sprites](./custom_shapes.md)\
-[Scenes](./scenes.md)
-
+[Scenes](./scenes.md)\
+[Particles](./particles.md)
+[Audio](./audio.md)\
 
 ## Course Projects
 

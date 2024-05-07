@@ -119,7 +119,7 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `OnTriggerStay()`: This method is called when the object stays in a trigger collider.
 - `OnTriggerExit2D()`: This method is called when the object exits a 2D trigger collider.
 - `OnTriggerStay2D()`: This method is called when the object stays in a 2D trigger collider.
-- `OnCollisionExit()`: This method is called when the object exits a collision with another object.
+- [`OnCollisionExit()`](./OnCollisionExit.md): This method is called when the object exits a collision with another object.
 - `OnCollisionStay()`: This method is called when the object stays in a collision with another object.
 - `OnCollisionExit2D()`: This method is called when the object exits a 2D collision with another object.
 - `OnCollisionStay2D()`: This method is called when the object stays in a 2D collision with another object.
@@ -152,7 +152,7 @@ Unity provides many built-in methods that can be used to manipulate the transfor
 
 Unity provides many built-in methods that can be used to capture input from the user. Some of the commonly used methods are:
 
-- `Input.GetKey()`: This method is used to get the key input from the user.
+- [`Input.GetKey()`](./input.GetKey.md): This method is used to get the key input from the user.
 - `Input.GetKeyDown()`: This method is used to get the key input from the user when the key is pressed.
 - `Input.GetKeyUp()`: This method is used to get the key input from the user when the key is released.
 - `Input.GetMouseButton()`: This method is used to get the mouse button input from the user.
@@ -220,6 +220,9 @@ Unity provides many built-in methods that can be used to interact with the game 
 - `GetComponentInParent()`: This method is used to get the component of the object and its parent.
 - `GetComponents()`: This method is used to get all the components of the object.
 - [`IsTouching()`](./Object.IsTouching.md): This method is used to check if the object is touching another object.
+- [`FindObjectOfType()`](./Object.FindObjectOfType.md): This method is used to find an object of the specified type, from any scene.
+- `FindObjectsOfType()`: This method is used to find all objects of the specified type, from any scene.
+- `FindObjectWithTag()`: This method is used to find an object with the specified tag, from any scene.
 
 ## Rigidbody Methods
 
@@ -261,5 +264,15 @@ Unity provides many built-in methods that can be used to interact with the scene
 - `SceneManager.LoadSceneAdditiveParameters()`: This method is used to load a scene additive parameters.
 - `SceneManager.LoadSceneSingleAsyncParameters()`: This method is used to load a scene single asynchronously parameters.
 - `SceneManager.LoadSceneAdditiveAsyncParameters()`: This method is used to load a scene additive asynchronously parameters.
+
+## Utility Methods
+
+Unity provides many built-in methods that can be used to perform utility functions in the game. Some of the commonly used methods are:
+
+- [`Invoke()`](./Invoke.md): This method is used to invoke a method after a specified time.
+- `InvokeRepeating()`: This method is used to invoke a method repeatedly after a specified time.
+- `CancelInvoke()`: This method is used to cancel the invocation of a method.
+- `IsInvoking()`: This method is used to check if a method is being invoked.
+
 
 &larr; [Back to Begin](./readme.md)

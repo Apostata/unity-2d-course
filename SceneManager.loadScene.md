@@ -24,13 +24,19 @@ public class FinishingLine : MonoBehaviour
 
         if(isPlayer && isColidding){
             Debug.Log("Player has reached the finish line!");
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(0); // Load the scene with the index 0
         }
     }
 }
 ```
 
-In this example, the `loadScene` method is used to load the scene with the index 0 when the player reaches the finish line. The `loadScene` method can also be used to load a scene by its name, like this:
+In this example, the `loadScene` method is used to load the scene with the index `0` when the player reaches the finish line. The `loadScene` method can also be used to load a scene by its name, like this:
+
+```csharp
+...
+SceneManager.LoadScene("Level2"); // Load the scene with the name "Level2"
+...
+```
 
 &larr; [Back to Codding](./Coding_unity.md)\
 &larr; [Back to Begin](./readme.md)

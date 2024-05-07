@@ -1,6 +1,6 @@
 # Object.GetComponent
 
-This method is used to get a component of an object. It returns the component of the object that matches the type passed as a parameter.\
+This method is used to get a component of this GameObject. It returns the component of the object that matches the type passed as a parameter.\
 
 Here is an example of how to use the `GetComponent` method to access the `SpriteRenderer` component of an object and change its color:
 

@@ -87,6 +87,7 @@ Rigidbody properties include:
 - **Linear Drag:** The amount of drag applied to the Rigidbody when it moves. Linear drag can be used to slow down the movement of an object. The higher the drag the more the movement slows down.
 - **Angular Drag:** The amount of drag applied to the Rigidbody when it rotates. Angular drag can be used to slow down the rotation of an object. The higher the drag the more the rotation slows down.
 - **Gravity Scale:** The scale factor for the Rigidbody's gravity. A value of 0 means no gravity, while a value of 1 means normal gravity.
+- **Interpolate:** The interpolation mode used to smooth the Rigidbody's movement. Interpolation can be used to make the Rigidbody's movement appear smoother. Set it to `Interpolate` to make the Rigidbody's movement appear smoother. Usefull when the Rigidbody is in motion.
 
 ### Adding a Rigidbody to a GameObject
 
