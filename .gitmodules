@@ -4,3 +4,6 @@
 [submodule "Unity-snow-boarder"]
 	path = Unity-snow-boarder
 	url = https://github.com/Apostata/Unity-snow-boarder.git
+[submodule "Unity-quiz-master"]
+	path = Unity-quiz-master
+	url = https://github.com/Apostata/Unity-quiz-master.git

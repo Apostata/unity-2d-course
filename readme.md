@@ -88,15 +88,18 @@ more the number more "in front" of others object, the object will be.
 [Input System](./Input_system.md)\
 [Physics](./physics.md)\
 [Camera](./camera.md)\
-[Custom shapes and Sprites](./custom_shapes.md)\
+[Custom shapes](./custom_shapes.md)\
+[Sprites](./sprites.md)\
 [Scenes](./scenes.md)\
 [Particles](./particles.md)
 [Audio](./audio.md)\
+[Canvas](./canvas.md)
 
 ## Course Projects
 
 [Delivery Driver Game](https://github.com/Apostata/Unity-delivery-driver)\
-[Snow Boarder Game](https://github.com/Apostata/Unity-snow-boarder)
+[Snow Boarder Game](https://github.com/Apostata/Unity-snow-boarder)\
+[Quiz Master](https://github.com/Apostata/Unity-quiz-master)
 
 ## Credits and copyrigth
 

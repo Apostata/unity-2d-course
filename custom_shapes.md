@@ -36,19 +36,6 @@ Select the closed sprite shape in the hierarchy window and in the inspector wind
 
 ![Editing closed sprite shape](./assets/editing_closed_sprite_shape.png)
 
-## Editing Sprites
-
-By selecting a sprite in the assets window, you can edit the sprite shape in many ways, like pivot point, transparency, pixels per unit, etc. Also you can edit the shape of the sprite in the sprite editor.
-
-### Sprite editor
-
-You can customize the shape of a sprite by using the sprite editor. To open the sprite editor, select the sprite in the assets window and click on the `Sprite Editor` button in the inspector window.
-
-![Sprite editor](./assets/sprite_editor.png)
-
-In the sprite editor, you can adjust the shape of the sprite by moving the vertices of the sprite. 
-
-![Edited sprite](./assets/edited_sprite.png)
 
 
 &larr; [Back to Begin](./readme.md)
