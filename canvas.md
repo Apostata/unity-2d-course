@@ -24,6 +24,7 @@ To add UI elements, right-click on the canvas and select the UI element you want
 [Canvas Image](./canvas_image.md)\
 [Canvas Text TextMeshPro](./canvas_text_textmeshpro.md)\
 [Canvas Button TextMeshPro](./canvas_button.md)
+[Canvas Slider](./canvas_slider.md)
 
 ### Positioning UI elements
 

@@ -94,6 +94,7 @@ more the number more "in front" of others object, the object will be.
 [Particles](./particles.md)
 [Audio](./audio.md)\
 [Canvas](./canvas.md)
+[Scriptable Objects](./scriptable_objects.md)\
 
 ## Course Projects
 

@@ -64,7 +64,7 @@ string myName = "Rene";
 
 ### Accessing variables in the inspector window
 
-To access the variables in the inspector window, before the variable, put the `[SerializeField]` attribute. This will make the variable visible in the inspector window.
+To access the variables in the inspector window, before the variable, put the `[SerializeField]` attribute. This will make the variable visible in the inspector window. You can also use the `public` keyword instead of `[SerializeField]` but it is only recommended if you want to access the variable from another script.
 
 ```csharp
 public class Driver : MonoBehaviour
@@ -94,6 +94,18 @@ public class Driver : MonoBehaviour
 
 - `steerSpeed` and `moveSpeed` are the variables that can be accessed in the inspector window.\
 you can use `public` instead of `[SerializeField]` but it is only recommended if you want to access the variable from another script.
+
+#### Exposing types in the inspector
+
+- `[SerializeField]` can be used to expose a variable in the inspector window, no matter the type.
+- `[SerializeField][Range(min, max)]` can be used to expose a variable in the inspector window and set a range for the variable.
+- `[SerializeField][Header("Name")]` can be used to create a header in the inspector window.
+- `[SerializeField][Tooltip("Description")]` can be used to create a tooltip in the inspector window.
+- `[SerializeField][TextArea(min, max)]` can be used to create a text area in the inspector window, with a minimum and maximum number of lines.
+- `[SerializeField][Space]` can be used to create a space in the inspector window.
+- `[SerializeField][HideInInspector]` can be used to hide a variable in the inspector window.
+
+you call also serialize an array of variables by using `[SerializeField]` before the array.
 
 ## Methods in Unity
 
@@ -223,6 +235,7 @@ Unity provides many built-in methods that can be used to interact with the game 
 - [`FindObjectOfType()`](./Object.FindObjectOfType.md): This method is used to find an object of the specified type, from any scene.
 - `FindObjectsOfType()`: This method is used to find all objects of the specified type, from any scene.
 - `FindObjectWithTag()`: This method is used to find an object with the specified tag, from any scene.
+- [`GetComponentsInChildren()`](./Object.GetComponentsInChildren.md): This method is used to get all the components of the object and its children.
 
 ## Rigidbody Methods
 
@@ -274,5 +287,42 @@ Unity provides many built-in methods that can be used to perform utility functio
 - `CancelInvoke()`: This method is used to cancel the invocation of a method.
 - `IsInvoking()`: This method is used to check if a method is being invoked.
 
+
+## TextMeshPro
+
+There are some methods that can be used to interact with the TextMeshPro component in Unity. Some of the commonly used methods are:
+
+- `SetText()`: This method is used to set the text of the TextMeshPro component.
+- `GetText()`: This method is used to get the text of the TextMeshPro component.
+- `SetFontSize()`: This method is used to set the font size of the TextMeshPro component.
+- `GetFontSize()`: This method is used to get the font size of the TextMeshPro component.
+- `SetAlignment()`: This method is used to set the alignment of the TextMeshPro component.
+- `GetAlignment()`: This method is used to get the alignment of the TextMeshPro component.
+- `SetStyle()`: This method is used to set the style of the TextMeshPro component.
+- `GetStyle()`: This method is used to get the style of the TextMeshPro component.
+- `SetColor()`: This method is used to set the color of the TextMeshPro component.
+- `GetColor()`: This method is used to get the color of the TextMeshPro component.
+- `SetAlpha()`: This method is used to set the alpha of the TextMeshPro component.
+- `GetAlpha()`: This method is used to get the alpha of the TextMeshPro component.
+- `SetFaceColor()`: This method is used to set the face color of the TextMeshPro component.
+- `GetFaceColor()`: This method is used to get the face color of the TextMeshPro component.
+- `SetOutlineColor()`: This method is used to set the outline color of the TextMeshPro component.
+- `GetOutlineColor()`: This method is used to get the outline color of the TextMeshPro component.
+- `SetOutlineWidth()`: This method is used to set the outline width of the TextMeshPro component.
+- `GetOutlineWidth()`: This method is used to get the outline width of the TextMeshPro component.
+- `SetShadowColor()`: This method is used to set the shadow color of the TextMeshPro component.
+- `GetShadowColor()`: This method is used to get the shadow color of the TextMeshPro component.
+- `SetShadowOffset()`: This method is used to set the shadow offset of the TextMeshPro component.
+- `GetShadowOffset()`: This method is used to get the shadow offset of the TextMeshPro component.
+- `SetShadowSoftness()`: This method is used to set the shadow softness of the TextMeshPro component.
+- `GetShadowSoftness()`: This method is used to get the shadow softness of the TextMeshPro component.
+- `SetShadowAngle()`: This method is used to set the shadow angle of the TextMeshPro component.
+- `GetShadowAngle()`: This method is used to get the shadow angle of the TextMeshPro component.
+- `SetShadowDistance()`: This method is used to set the shadow distance of the TextMeshPro component.
+- `GetShadowDistance()`: This method is used to get the shadow distance of the TextMeshPro component.
+- `SetShadowIntensity()`: This method is used to set the shadow intensity of the TextMeshPro component.
+- `GetShadowIntensity()`: This method is used to get the shadow intensity of the TextMeshPro component.
+- `SetShadowResolution()`: This method is used to set the shadow resolution of the TextMeshPro component.
+- `GetShadowResolution()`: This method is used to get the shadow resolution of the TextMeshPro component. 
 
 &larr; [Back to Begin](./readme.md)
