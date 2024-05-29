@@ -7,3 +7,6 @@
 [submodule "Unity-quiz-master"]
 	path = Unity-quiz-master
 	url = https://github.com/Apostata/Unity-quiz-master.git
+[submodule "Unity-tileVania"]
+	path = Unity-tileVania
+	url = https://github.com/Apostata/Unity-tileVania.git
