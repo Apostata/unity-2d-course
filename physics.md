@@ -58,9 +58,6 @@ The same proccess can be done with `OnTriggerEnter2D` method.
 
  Attach this script to the GameObject that you want to detect collisions with, and it will log a message to the console whenever a collision occurs.
 
- &larr; [Back to Begin](./readme.md)\
- &larr; [Back to Codding](./Coding_unity.md)
-
 #### Adjusting the Collider's offset
 
 Sometimes you may need to adjust the position of the collider relative to the GameObject's position. You can do this by adjusting the `Offset` property of the collider in the Inspector window.
@@ -118,3 +115,7 @@ Effector properties are:
 - **Speed:** Enter the speed to keep along the surface
 - **Speed variation:** Enter a value here to apply a random increase in speed, where Unity selects a random number between 0 and the Speed Variation value. Entering a negative number here will result in a random reduction in speed instead, where Unity selects a random negative number between 0 and the Speed Variation value.
 - **Force Scale:** Enter a value to scale the force that’s applied when the effector attempts to meet the specified Speed along the surface. If this is 0, then Unity applies no force. If this is 1, then Unity applies full force. Note: Entering 1 to apply full force can counteract any other forces being applied to the target object and cause unwanted movement or behavior. It’s recommended to enter a value less than 1 to prevent this issue from happening.
+
+
+ &larr; [Back to Begin](./readme.md)\
+ &larr; [Back to Codding](./Coding_unity.md)

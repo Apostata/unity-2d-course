@@ -37,7 +37,7 @@ To add an animation to the `Animator Controller`, drag the animation to the `Ani
 
 Add the created controller to the object by selecting the object in the hierarchy window and adding the `Animator` component to the object. Then click on the `Controller` field in the `Animator` component and select the `Animator Controller` that you created.
 
-## Creating an and adding an animation to an object
+## Sumary of the steps to add an animation to an object
 
  1. First, Create a new folder in the assets window and name it `Animations`.
  2. Then add an `Animator Controller` to the folder. Right-click in the folder and select `Create > Animator Controller`.
@@ -50,4 +50,21 @@ Add the created controller to the object by selecting the object in the hierarch
  9. makesure the `Sprite renderer` at the `Aditional Setting` are pointing to the correct `Sorting Layer` and `Order in Layer`.
    
 
+## Adding more states to the Animator Controller
 
+You can add more states to the `Animator Controller` to assign diferent animations for diferent states of the object.
+
+First, you will need do select the `Animator Controller` in the assets window. then click in the tab `Parameters` and click in the `Add` button.
+
+for this example, we will add a `Bool` parameter to the `Animator Controller`. So, click in the `Add` button and select `Bool`. Then name the parameter as `isRunning`.
+
+Drag the `Animation` to the `Animator Controller`.
+
+![Animation states](./assets/animation_states.png)
+
+Next we will need to define from which state the animation will start. Lets supose that this running animation will start from the `Idle` state. So, we will need to add a transition from the `Idle` state to the `Running` state and set the condition to the `isRunning` parameter to be `true`, and another transition from the `Running` state to the `Idle` state and set the condition to the `isRunning` parameter to be `false`.
+To create a transition, right-click on the `Idle` state and select `Make Transition`, then click on the `Running` state. Then click on the transition line and set the condition to the `isRunning` parameter to be `true` at the inspector window.
+
+![Transition](./assets/transitions.png)
+
+&larr; [Back to Begin](./readme.md)

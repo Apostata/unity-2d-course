@@ -44,3 +44,5 @@ the middle icons:
 - the `Arrows Top and Down` pointing to the top and bottom, means that the rules apply for the top and bottom side of the tile. in other words, the rules are mirrored. no need to create a new sprite for the mirrored version.
 - the `Cross` with arrows pointing out, means that the rules apply for all sides. in other words, the rules are mirrored. no need to create a new sprite for the mirrored version.
 - the `Curved Arrows` are the `rotate`, means that the rules apply for the rotated version of the tile. in other words, the rules are rotated. so the sprite in the middle is rotated, no need to create a new sprite for the rotated version.
+
+&larr; [Back to Begin](./readme.md)
