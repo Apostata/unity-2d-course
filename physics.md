@@ -85,6 +85,7 @@ Rigidbody properties include:
 - **Angular Drag:** The amount of drag applied to the Rigidbody when it rotates. Angular drag can be used to slow down the rotation of an object. The higher the drag the more the rotation slows down.
 - **Gravity Scale:** The scale factor for the Rigidbody's gravity. A value of 0 means no gravity, while a value of 1 means normal gravity.
 - **Interpolate:** The interpolation mode used to smooth the Rigidbody's movement. Interpolation can be used to make the Rigidbody's movement appear smoother. Set it to `Interpolate` to make the Rigidbody's movement appear smoother. Usefull when the Rigidbody is in motion.
+- **Collision Detection:** The collision detection mode used to detect collisions with the Rigidbody. Set it to `Continuous` to detect collisions more accurately. Usefull when the Rigidbody is in motion, for actions games.
 
 ### Adding a Rigidbody to a GameObject
 
@@ -116,6 +117,23 @@ Effector properties are:
 - **Speed variation:** Enter a value here to apply a random increase in speed, where Unity selects a random number between 0 and the Speed Variation value. Entering a negative number here will result in a random reduction in speed instead, where Unity selects a random negative number between 0 and the Speed Variation value.
 - **Force Scale:** Enter a value to scale the force that’s applied when the effector attempts to meet the specified Speed along the surface. If this is 0, then Unity applies no force. If this is 1, then Unity applies full force. Note: Entering 1 to apply full force can counteract any other forces being applied to the target object and cause unwanted movement or behavior. It’s recommended to enter a value less than 1 to prevent this issue from happening.
 
+
+## Physics Materials
+
+Physics materials are used to define the physical properties of colliders or RigidBodies in a 2D physics simulation. They are often used to control how objects interact with each other, such as how bouncy or slippery they are. Physics materials can be attached to any colliders or rigidbodies in a 2D physics simulation, and can be used to control the friction, bounciness, and other physical properties of the collider or Rigidbody.
+
+### Creating a Physics Material
+
+To create a physics material, select the folder in the Project window where you want to save the material, then right-click and select `Create > Physics Material 2D`. A new physics material will be created in the selected folder, and you can adjust its properties in the Inspector window.
+
+![Physics Material](./assets/physics_material.png)
+
+Physics material properties include:
+
+- **Friction:** The amount of friction applied to the collider or Rigidbody. Friction can be used to control how slippery an object is.
+- **Bounciness:** The amount of bounciness applied to the collider or Rigidbody. Bounciness can be used to control how bouncy an object is.
+
+![Physics Material Properties](./assets/physics_material_properties.png)
 
  &larr; [Back to Begin](./readme.md)\
  &larr; [Back to Codding](./Coding_unity.md)

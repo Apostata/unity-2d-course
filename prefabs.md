@@ -6,4 +6,8 @@ Prefabs are useful for creating multiple instances of the same GameObject in the
 
 ![Prefab](./assets/prefabs.png)
 
+If you made a change in one of the instances of the prefab in the scene, you can apply the changes to the prefab by selecting the instance of the prefab in the hierarchy window and clicking on the combo box called `Overrides` in the inspector window. You can then click on the `Apply All` button to apply the changes to the prefab.
+
+![Overrides](./assets/prefabs_apply_all.png)
+
 &larr; [Back to Begin](./readme.md)

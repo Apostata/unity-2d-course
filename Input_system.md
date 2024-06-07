@@ -52,4 +52,8 @@ then close the input settings window.
 ![Input Settings](./assets/create_settings_asset.png)
 
 
+### Actions to Methods
+Once you done the actions will be converted to methods that you can use in your scripts. For example, if you have a `Jump` action, you can call the `OnJump` method in your script to perform the jump action.
+
+
 &larr; [Back to Begin](./readme.md)
