@@ -79,13 +79,16 @@ Rigidbodies are components that are used to simulate physical interactions betwe
 Rigidbodies can be attached to any GameObject, but are most often used with GameObjects that are intended to interact with the physical world. For example, a GameObject that represents a car might have a Rigidbody component that allows it to move and collide with other objects.
 
 Rigidbody properties include:
-
+- **Body Type:** The type of Rigidbody. Set it to `Dynamic` to allow the Rigidbody to be affected by forces and collisions. Set it to `Kinematic` to allow the Rigidbody to be moved by scripts, but not affected by forces or collisions. Set it to `Static` to prevent the Rigidbody from moving or being affected by forces or collisions.
+- **Material:** The physics material used by the Rigidbody. The physics material defines the physical properties of the Rigidbody, such as friction and bounciness.
 - **Mass:** The mass of the Rigidbody. Mass determines how much force is required to move the Rigidbody.
 - **Linear Drag:** The amount of drag applied to the Rigidbody when it moves. Linear drag can be used to slow down the movement of an object. The higher the drag the more the movement slows down.
 - **Angular Drag:** The amount of drag applied to the Rigidbody when it rotates. Angular drag can be used to slow down the rotation of an object. The higher the drag the more the rotation slows down.
 - **Gravity Scale:** The scale factor for the Rigidbody's gravity. A value of 0 means no gravity, while a value of 1 means normal gravity.
 - **Interpolate:** The interpolation mode used to smooth the Rigidbody's movement. Interpolation can be used to make the Rigidbody's movement appear smoother. Set it to `Interpolate` to make the Rigidbody's movement appear smoother. Usefull when the Rigidbody is in motion.
 - **Collision Detection:** The collision detection mode used to detect collisions with the Rigidbody. Set it to `Continuous` to detect collisions more accurately. Usefull when the Rigidbody is in motion, for actions games.
+
+**NOTE:** `kinematic` Rigidbodies are not affected by forces or collisions, but can be moved by scripts. This can be useful for objects that need to be moved by scripts, but should not be affected by physics, like some simple enemies that move along a predefined path. `Static` Rigidbodies are not affected by forces or collisions, and cannot be moved by scripts. This can be useful for objects that should not move or be affected by physics, like walls or floors in a game level
 
 ### Adding a Rigidbody to a GameObject
 
@@ -134,6 +137,22 @@ Physics material properties include:
 - **Bounciness:** The amount of bounciness applied to the collider or Rigidbody. Bounciness can be used to control how bouncy an object is.
 
 ![Physics Material Properties](./assets/physics_material_properties.png)
+
+## Some physics issues
+
+### Player is sticking to the wall
+
+If the player is sticking to the wall, you can add a physics material to the player's collider and set the friction to 0. This will make the player slide off the wall instead of sticking to it.
+
+### Player is able to jump in the wall
+
+To prevent this issue, add a second collider to the player, make sure that this collider is smaller than the player's body collider. When the player collides with the wall, the body collider will detect the collision with the body, preventing the second collider from colliding with the wall.
+
+using this method can cause another issue with the players movement, and sometimes the player can get stuck wile moving. This can occur when the second collider is and verticed collider.
+
+there 2 ways to fix this issue:
+1. add a circular or capsule collider to the player's feet (second collider). or
+2. set the second collider to be a trigger collider. setting the property `isTrigger` to true.
 
  &larr; [Back to Begin](./readme.md)\
  &larr; [Back to Codding](./Coding_unity.md)

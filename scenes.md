@@ -6,3 +6,4 @@ To switch between scenes, you can use the `SceneManager` class in Unity. The `Sc
 
 **NOTE:** You can only load scenes that are added to the build settings. To add a scene to the build settings, go to `File -> Build Settings` and click on the `Add Open Scenes` button.
 
+&larr; [Back to Begin](./readme.md)

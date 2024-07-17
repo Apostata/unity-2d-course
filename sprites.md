@@ -76,3 +76,5 @@ If the sprites in the spritesheet have different sizes, you can use the grid by 
 
 Then, in the project folder, you will see the sprite with a `play` icon. This means that this sprite is a sliced spritesheet.\
 ![Sliced spritesheet](./assets/sliced_spritesheet.png)
+
+&larr; [Back to Begin](./readme.md)

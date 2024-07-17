@@ -52,6 +52,7 @@ Add the created controller to the object by selecting the object in the hierarch
 
 ## Adding more states to the Animator Controller
 
+
 You can add more states to the `Animator Controller` to assign diferent animations for diferent states of the object.
 
 First, you will need do select the `Animator Controller` in the assets window. then click in the tab `Parameters` and click in the `Add` button.
@@ -66,5 +67,23 @@ Next we will need to define from which state the animation will start. Lets supo
 To create a transition, right-click on the `Idle` state and select `Make Transition`, then click on the `Running` state. Then click on the transition line and set the condition to the `isRunning` parameter to be `true` at the inspector window.
 
 ![Transition](./assets/transitions.png)
+
+### Parameters types
+
+There are some types of parameters that you can add to the `Animator Controller`. The types are:
+
+- Bool : A boolean value
+- Float : A float value
+- Int : A integer value
+- Trigger : A trigger value
+
+
+### Transition Animation from any state
+
+Lets supose that you want to transition the animation from any state to the `Dying` state. To do this, you will need to add a transition from the `Any State` to the `Dying` state. To do this, right-click on the `Any State` and select `Make Transition`, then click on the `Dying` state. Then click on the transition line and set the condition to the `Dying` parameter.
+
+Now you need to trigger the `Dying` parameter to make the transition from any state to the `Dying` state. To do this, you will need to add a script to the object that will trigger the `Dying` parameter or edit the script that is already in the object to trigger the `Dying` parameter.
+
+![Any State](./assets/anystate_transition.png)
 
 &larr; [Back to Begin](./readme.md)

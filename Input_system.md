@@ -56,4 +56,8 @@ then close the input settings window.
 Once you done the actions will be converted to methods that you can use in your scripts. For example, if you have a `Jump` action, you can call the `OnJump` method in your script to perform the jump action.
 
 
+**NOTE: When working with input system if you press 2 keys at the same time and the `composite` `mode` is on mode `Digital normalized` the value will be halved. to fix this you can change the composite mode to `Digital`**
+
+![Two keys pressed](./assets/two_keys_action_issue.png)
+
 &larr; [Back to Begin](./readme.md)
