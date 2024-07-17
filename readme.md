@@ -98,8 +98,8 @@ more the number more "in front" of others object, the object will be.
 [Tilemaps](./tilemaps.md)\
 [Layers](./layers.md)\
 [Animation](./animation.md)\
-[Prefabs](./prefabs.md)
-[Shoting](./shoting.md)\
+[Prefabs](./prefabs.md)\
+[Shooting](./shooting.md)
 
 ## Course Projects
 

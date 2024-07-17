@@ -222,7 +222,7 @@ public class FollowObject : MonoBehaviour
 Unity provides many built-in methods that can be used to interact with the game objects. Some of the commonly used methods are:
 
 - [`Destroy()`](./Object.destroy.md): This method is used to destroy the object.
-- `Instantiate()`: This method is used to create a new instance of the object.
+- [`Instantiate()`](./Object.Instantiate.md): This method is used to create a new instance of the object.
 - `SetActive()`: This method is used to set the active state of the object.
 - [`CompareTag()`](./Object.CompareTag.md): This method is used to compare the tag of the object.
 - `SendMessage()`: This method is used to send a message to the object.

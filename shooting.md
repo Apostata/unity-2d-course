@@ -124,7 +124,7 @@ public class Player : MonoBehaviour
 }
 ```
 
-At the `OnFire` method, we set the `shotting` trigger of the player animator controller. We also set the `isFiring` variable to `true` to prevent the player from shooting multiple times. We use the `Task.Delay` method to wait for part of the animation to finish and instantiate the arrow prefab. We also wait for the anination to finish, an then   variable to `false`.
+At the `OnFire` method, we set the `shotting` trigger of the player animator controller. We also set the `isFiring` variable to `true` to prevent the player from shooting multiple times. We use the `Task.Delay` method to wait for part of the animation to finish and [`Instantiate`](./Object.Instantiate.md) the arrow prefab. We also wait for the anination to finish, an then   variable to `false`.
 
 ![Shotting](./assets/shotting_animation.png)
 
