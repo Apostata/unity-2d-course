@@ -6,4 +6,11 @@ To switch between scenes, you can use the `SceneManager` class in Unity. The `Sc
 
 **NOTE:** You can only load scenes that are added to the build settings. To add a scene to the build settings, go to `File -> Build Settings` and click on the `Add Open Scenes` button.
 
+## Multiple levels
+
+You can create multiple levels in the game by creating multiple scenes. Each scene can represent a different level or screen in the game. You can switch between scenes using the `SceneManager` class.
+**NOTE: Remember to add the scenes to the build settings.**
+
+![Build Settings](./assets/creating_levels.png)
+
 &larr; [Back to Begin](./readme.md)

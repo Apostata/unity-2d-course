@@ -83,7 +83,7 @@ more the number more "in front" of others object, the object will be.
 
 
 ## Content
-
+[C#](./csharp.md)\
 [Codding in Unity](./Coding_unity.md)\
 [Input System](./Input_system.md)\
 [Physics](./physics.md)\
@@ -99,7 +99,9 @@ more the number more "in front" of others object, the object will be.
 [Layers](./layers.md)\
 [Animation](./animation.md)\
 [Prefabs](./prefabs.md)\
-[Shooting](./shooting.md)
+[Shooting](./shooting.md)\
+[Game Session](./game_session.md)\
+[Scene Persist](./scene_persist.md)
 
 ## Course Projects
 

@@ -90,3 +90,26 @@ public class FinishingLine : MonoBehaviour
 ```
 
 In this example, the `audioSource1` and `audioSource2` audio sources are played when the player collides with the finish line. The `fireWorks` particle system is also played when the player collides with the finish line. The `ReloadScene` method is called after `timeToReload` seconds have passed.
+
+## Adding a audio that triggers on camera position
+
+Let's take a sample where we hava a coin that triggers a sound when is picked up by the player. But the coin object is destroyed when the player picks it up. then in this case we can use `AudioSource.PlayClipAtPoint` method to play the audio clip at the position of the coin object.
+
+```csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Coin : MonoBehaviour
+{
+    [SerializeField] AudioClip CoinSound;
+   void OnTriggerEnter2D(Collider2D other) {
+    if(other.gameObject.layer == LayerMask.NameToLayer("Player")){
+        FindObjectOfType<GameSession>().AddPlayerScore(10);
+        AudioSource.PlayClipAtPoint(CoinSound, Camera.main.transform.position); // Play the sound at the camera position
+        Destroy(gameObject);
+    }
+   }
+}
+```
+&larr; [Back to Begin](./readme.md)

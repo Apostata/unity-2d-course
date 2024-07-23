@@ -10,4 +10,13 @@ If you made a change in one of the instances of the prefab in the scene, you can
 
 ![Overrides](./assets/prefabs_apply_all.png)
 
+
+## Prefab Variants
+
+Prefab variants are a way to create variations of a prefab without affecting the original prefab. You can create a prefab variant by selecting the prefab in the project window and clicking on the `Create` button in the inspector window. You can then make changes to the prefab variant without affecting the original prefab.
+
+Prefab variants are useful for creating variations of a prefab that share some properties with the original prefab but have different properties as well. For example, you can create a prefab variant of a character with different colors or animations.
+
+If you make any changes to the "original" prefab, the changes **will** affect the prefab variants. You can also create multiple prefab variants from the same original prefab or from other prefab variants.
+
 &larr; [Back to Begin](./readme.md)
