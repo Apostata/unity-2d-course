@@ -325,4 +325,81 @@ There are some methods that can be used to interact with the TextMeshPro compone
 - `SetShadowResolution()`: This method is used to set the shadow resolution of the TextMeshPro component.
 - `GetShadowResolution()`: This method is used to get the shadow resolution of the TextMeshPro component. 
 
+## Audiosource Methods
+
+Unity provides many built-in methods that can be used to interact with the audiosource component in Unity. Some of the commonly used methods are:
+
+- `Play()`: This method is used to play the audio.
+- `Pause()`: This method is used to pause the audio.
+- `Stop()`: This method is used to stop the audio.
+- `SetLoop()`: This method is used to set the loop of the audio.
+- `SetVolume()`: This method is used to set the volume of the audio.
+- `SetPitch()`: This method is used to set the pitch of the audio.
+- `SetSpatialBlend()`: This method is used to set the spatial blend of the audio.
+- `SetReverbZoneMix()`: This method is used to set the reverb zone mix of the audio.
+- `SetDopplerLevel()`: This method is used to set the doppler level of the audio.
+- `SetSpread()`: This method is used to set the spread of the audio.
+- `SetPriority()`: This method is used to set the priority of the audio.
+- `SetMute()`: This method is used to set the mute of the audio.
+- `SetBypassEffects()`: This method is used to set the bypass effects of the audio.
+- `SetBypassListenerEffects()`: This method is used to set the bypass listener effects of the audio.
+- `SetBypassReverbZones()`: This method is used to set the bypass reverb zones of the audio.
+- `SetOutputAudioMixerGroup()`: This method is used to set the output audio mixer group of the audio.
+- `SetSpatialize()`: This method is used to set the spatialize of the audio.
+- `SetSpatializePostEffects()`: This method is used to set the spatialize post effects of the audio.
+- `SetIgnoreListenerVolume()`: This method is used to set the ignore listener volume of the audio.
+- `SetIgnoreListenerPause()`: This method is used to set the ignore listener pause of the audio.
+- `SetDopplerLevel()`: This method is used to set the doppler level of the audio.
+- `PlayClipAtPoint()`: This method is used to play the audio clip at the specified position.
+- `SetScheduledStartTime()`: This method is used to set the scheduled start time of the audio.
+- `SetScheduledEndTime()`: This method is used to set the scheduled end time of the audio.
+- `SetScheduledTime()`: This method is used to set the scheduled time of the audio.
+
+## Camera Methods
+
+Unity provides many built-in methods that can be used to interact with the camera component in Unity. Some of the commonly used methods are:
+
+- `Camera.main`: This method is used to get the main camera.
+- `Camera.current`: This method is used to get the current camera.
+- `Camera.allCameras`: This method is used to get all the cameras in the scene.
+- `Camera.GetCamera()`: This method is used to get the camera by name.
+- `Camera.GetCameraByTag()`: This method is used to get the camera by tag.
+- `Camera.GetCameraByLayer()`: This method is used to get the camera by layer.
+- `Camera.GetCameraByDepth()`: This method is used to get the camera by depth.
+- `Camera.GetCameraByCullingMask()`: This method is used to get the camera by culling mask.
+- `Camera.GetCameraByProjection()`: This method is used to get the camera by projection.
+- `Camera.GetCameraByOrthographicSize()`: This method is used to get the camera by orthographic size.
+- `Camera.GetCameraByFieldOfView()`: This method is used to get the camera by field of view.
+- `Camera.GetCameraByNearClipPlane()`: This method is used to get the camera by near clip plane.
+- `Camera.GetCameraByFarClipPlane()`: This method is used to get the camera by far clip plane.
+- `Camera.GetCameraByViewportRect()`: This method is used to get the camera by viewport rect.
+- `Camera.GetCameraByDepthTextureMode()`: This method is used to get the camera by depth texture mode.
+- `Camera.GetCameraByClearFlags()`: This method is used to get the camera by clear flags.
+- `Camera.GetCameraByBackgroundColor()`: This method is used to get the camera by background color.
+- `Camera.GetCameraByCullingMask()`: This method is used to get the camera by culling mask.
+- `Camera.GetCameraByProjectionMatrix()`: This method is used to get the camera by projection matrix.
+- `Camera.GetCameraByWorldToCameraMatrix()`: This method is used to get the camera by world to camera matrix.
+- `Camera.GetCameraByCameraToWorldMatrix()`: This method is used to get the camera by camera to world matrix.
+- `Camera.GetCameraByPixelRect()`: This method is used to get the camera by pixel rect.
+- `Camera.GetCameraByTargetTexture()`: This method is used to get the camera by target texture.
+- `Camera.GetCameraByPixelWidth()`: This method is used to get the camera by pixel width.
+- `Camera.GetCameraByPixelHeight()`: This method is used to get the camera by pixel height.
+- `Camera.GetCameraByAspect()`: This method is used to get the camera by aspect.
+- `Camera.GetCameraByOrthographic()`: This method is used to get the camera by orthographic.
+- `Camera.GetCameraByOrthographicSize()`: This method is used to get the camera by orthographic size.
+- `Camera.GetCameraByDepthTextureMode()`: This method is used to get the camera by depth texture mode.
+- `Camera.GetCameraByClearStencilAfterLightingPass()`: This method is used to get the camera by clear stencil after lighting pass.
+- `Camera.GetCameraByUseOcclusionCulling()`: This method is used to get the camera by use occlusion culling.
+- `Camera.GetCameraByAllowDynamicResolution()`: This method is used to get the camera by allow dynamic resolution.
+- `Camera.GetCameraByAllowHDR()`: This method is used to get the camera by allow HDR.
+- `Camera.GetCameraByAllowMSAA()`: This method is used to get the camera by allow MSAA.
+- `Camera.GetCameraByAllowDynamicResolution()`: This method is used to get the camera by allow dynamic resolution.
+- `Camera.ViewportToWorldPoint()`: This method is used to convert a point from viewport space to world space.
+- `Camera.WorldToViewportPoint()`: This method is used to convert a point from world space to viewport space.
+- [`Camera.ViewportToScreenPoint()`](./Camera.ViewportToWorldPoint.md): This method is used to convert a point from viewport space to screen space.
+- `Camera.ScreenToViewportPoint()`: This method is used to convert a point from screen space to viewport space.
+- `Camera.ScreenToWorldPoint()`: This method is used to convert a point from screen space to world space.
+- `Camera.WorldToScreenPoint()`: This method is used to convert a point from world space to screen space.
+- `Camera.ScreenPointToRay()`: This method is used to get a ray from a screen point.
+
 &larr; [Back to Begin](./readme.md)

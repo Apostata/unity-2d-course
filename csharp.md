@@ -2,6 +2,53 @@
 
 C# is a programming language that is used in unity to create scripts that control the behavior of the game objects.\
 
+## Math methods
+
+Math methods are used to perform mathematical operations in C#. Here are some of the most commonly used math methods in C#:
+
+- `Math.Abs()`: Returns the absolute value of a number.
+- `Math.Round()`: Rounds a number to the nearest integer or to a specified number of decimal places.
+- `Math.Floor()`: Rounds a number down to the nearest integer.
+- `Math.Ceiling()`: Rounds a number up to the nearest integer.
+- `Math.Min()`: Returns the smaller of two numbers.
+- `Math.Max()`: Returns the larger of two numbers.
+- `Math.Pow()`: Returns a specified number raised to the specified power.
+- `Math.Sqrt()`: Returns the square root of a number.
+- `Math.Sin()`: Returns the sine of an angle.
+- `Math.Cos()`: Returns the cosine of an angle.
+- `Math.Tan()`: Returns the tangent of an angle.
+- `Math.PI`: Represents the mathematical constant π.
+- `Math.E`: Represents the mathematical constant e.
+- `Math.Log()`: Returns the natural logarithm of a number.
+- `Math.Log10()`: Returns the base 10 logarithm of a number.
+- `Math.Exp()`: Returns e raised to the specified power.
+- `Math.Sign()`: Returns the sign of a number (1 if positive, -1 if negative, 0 if zero).
+- `Math.Truncate()`: Removes the fractional part of a number.
+- `Math.Clamp()`: Clamps a value between a minimum and maximum value.
+- `Math.Lerp()`: Linearly interpolates between two values.
+- `Math.LerpUnclamped()`: Linearly interpolates between two values without clamping the result.
+- `Math.LerpAngle()`: Linearly interpolates between two angles.
+- `Math.Deg2Rad()`: Converts degrees to radians.
+- `Math.Rad2Deg()`: Converts radians to degrees.
+- `Math.Atan2()`: Returns the angle whose tangent is the quotient of two specified numbers.
+- `Math.Atan()`: Returns the arctangent of a number.
+- `Math.Asin()`: Returns the arcsine of a number.
+- `Math.Acos()`: Returns the arccosine of a number.
+- `Math.Clamp01()`: Clamps a value between 0 and 1.
+- `Math.DeltaAngle()`: Calculates the shortest difference between two angles.
+- `Math.MoveTowards()`: Moves a value towards a target value.
+- `Math.SmoothStep()`: Interpolates between two values smoothly.
+- `Math.Approximately()`: Compares two floating-point numbers for approximate equality.
+- `Math.IsPowerOfTwo()`: Determines if a number is a power of two.
+- `Math.NextPowerOfTwo()`: Returns the next power of two that is greater than or equal to a specified number.
+- `Math.ClosestPowerOfTwo()`: Returns the power of two that is closest to a specified number.
+- `Math.IsNaN()`: Determines if a value is not a number (NaN).
+- `Math.IsInfinity()`: Determines if a value is positive or negative infinity.
+- `Math.IsNegativeInfinity()`: Determines if a value is negative infinity.
+- `Math.IsPositiveInfinity()`: Determines if a value is positive infinity.
+- `Math.FusedMultiplyAdd()`: Performs a fused multiply-add operation.
+
+
 
 ## Async Await vs Coroutines
 
